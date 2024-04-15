@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from "react-redux"; //UseSelector lấy dữ liệu từ redux, useDispatch đi tới redux
 import { useState } from "react";
+import "./App.css";
 import { Home, Login, Public } from "./containers/public/";
 import { Routes, Route } from "react-router-dom";
 import path from "./ultis/path";
